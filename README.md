@@ -6,10 +6,10 @@ Copilot is a flexible file based CMS. Use it to build simple websites and blogs 
 1. Getting Started
     1. Introduction
     2. Installation
-    3. Folder Structure
+    3. [Folder Structure](folder-structure.md)
 2. Content
-    1. Managing Pages
-    2. A single Page
+    1. [Managing Pages](pages.md)
+    2. [A single Page](page.md)
     3. Working with images
 3. Site Customization
     1. Page layouts

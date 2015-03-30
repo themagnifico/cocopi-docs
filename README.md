@@ -19,3 +19,7 @@ Copilot is a flexible file based CMS. Use it to build simple websites and blogs 
 4. Advanced
     1. [The Page API](page-api.md)
     2. [The copi API](copi-api.md)
+    3. The Page Collection API
+    4. The Data Collection API
+    5. The Image API
+    6. Creating a custom module

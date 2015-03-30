@@ -13,7 +13,7 @@ The file `content/about.html` will be available under `example.com/about` and re
 
 ## Manage a page with a folder
 
-More complex pages can be located as an index file in their own folder. To create the page `example.com/blog`, you create a `content/blog` directory and locate the page content in a file called `content/blog/index.html` or `content/blog/index.md`.
+More complex pages can be located as an index file in their own folder. To create the page `example.com/blog`, you create a file called `content/blog/index.html` or `content/blog/index.md`.
 
 You might prefer this over a single page because the folder allows to keep additional files like images right where you keep the page content itself.
 

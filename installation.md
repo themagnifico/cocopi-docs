@@ -6,6 +6,8 @@ Installing COCOPi is as easy as dropping the downloaded folder in the desired lo
 
 For example, extract the package to a `cocopi` folder in your web server documents directoy. In your browser, open `http://localhost/cocopi` or `example.com/cocopi` to see your site.
 
+COCOPi comes with an admin panel located in the `cockpit/` folder, so for example at `example.com/cocopi/cockpit`. Before you login to Cockpit for the first time, run the installation at `example.com/cocopi/cockpit/install`.
+
 ## Requirements
 
 PHP 5.4+

@@ -1,7 +1,7 @@
 The copi API
 ===
 
-The `copi` class bundles much of Copilot's functionality.
+The `copi` class bundles much of COCOPi's functionality.
 
 ## TODO
 

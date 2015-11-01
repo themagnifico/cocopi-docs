@@ -4,11 +4,11 @@ A single Page
 
 ## Page structure
 
-A file in the `content` folder contains both meta data and content. These parts are separated by a line with three equal signs. 
+A file in the `content` folder contains both meta data and content. These parts are separated by a line with three equal signs.
 
 ```yaml
 title   : Hello World
-author  : Copilot
+author  : COCOPi
 created : 2015-03-11
 
 ===
@@ -20,7 +20,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum l
 
 ## Content
 
-The content of your page can be HTML or Markdown, depending on the file extension. 
+The content of your page can be HTML or Markdown, depending on the file extension.
 
 You can also use PHP here. If you do, it's recommended to keep the code simple and concise. When you start complex tasks, think about moving this to your Page layout, your theme or a snippet.  
 
@@ -35,6 +35,3 @@ Use the `layout` key to set a different [page layout](page-layout.md) that is us
 ```yaml
 layout : blog/article
 ```
-
-
-

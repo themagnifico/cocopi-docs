@@ -1,11 +1,11 @@
 Page layouts
 ===
 
-When your page is rendered, Copilot takes the content and places it inside a so called page layout. By default, this is the main layout as defined by your site's theme: `site/theme/layout.html`. A page layout will also take the meta data of the current page and use parts of it, i.e. the page title to place in the broser window title.
+When your page is rendered, COCOPi takes the content and places it inside a so called page layout. By default, this is the main layout as defined by your site's theme: `site/theme/layout.html`. A page layout will also take the meta data of the current page and use parts of it, i.e. the page title to place in the broser window title.
 
 ## Render a page with a another page layout
 
-If you want your page to be rendered with a different layout, you can specify that in the meta data of your page file. 
+If you want your page to be rendered with a different layout, you can specify that in the meta data of your page file.
 
 ```yaml
 layout : blog/article
@@ -37,7 +37,7 @@ For more on the `$page` object, check out the [Page API](page-api.md) documentat
 
 ## Extend page layouts
 
-Page layouts can extend other page layouts so you don't have to rebuild every layout from scratch. 
+Page layouts can extend other page layouts so you don't have to rebuild every layout from scratch.
 
 ```
 @extend('theme:layout.html')

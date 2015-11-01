@@ -1,9 +1,10 @@
 Installation
 ===
 
-Installing Copilot is as easy as dropping the `copilot` folder in the desired location of your PHP 5.4+ ready web server. That's it. No database setup or installer is needed.
+To get started, download a COCOPi package that comes with some sample content.  
+Installing COCOPi is as easy as dropping the downloaded folder in the desired location of your PHP 5.4+ ready web server. That's it. No database setup or installer is needed.
 
-In your browser, open `http://localhost/copilot` or `example.com/copilot` to see your site.
+For example, extract the package to a `cocopi` folder in your web server documents directoy. In your browser, open `http://localhost/cocopi` or `example.com/cocopi` to see your site.
 
 ## Requirements
 
@@ -11,11 +12,11 @@ PHP 5.4+
 
 ## Apache 2
 
-Place the `copilot` folder in your `htdocs` directory. Done.
+Place the `cocopi` folder in your `htdocs` directory. Done.
 
 ## nginx
 
-Place the `copilot` folder in your `html` directory. Depending on your server setup, that might have been it already. 
+Place the `cocopi` folder in your `html` directory. Depending on your server setup, that might have been it already.
 
 If it doesn't work out of the box, try a nginx site configuration like the following.
 
@@ -54,7 +55,7 @@ server {
     #
     location ~ \.php$ {
         fastcgi_split_path_info ^(.+\.php)(/.+)$;
-    
+
     #   # With php5-fpm:
         fastcgi_pass unix:/var/run/php5-fpm.sock;
         fastcgi_index index.php;
@@ -63,4 +64,4 @@ server {
 
 }
 
-``` 
+```

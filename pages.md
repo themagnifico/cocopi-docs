@@ -5,6 +5,12 @@ Managing Pages
 
 COCOPi's content is managed with static files contained in your `content` folder. To add content, just add a file to this directory. A page can either be created with a single file, or with a single folder that can contain any number of additional files.
 
+## Use the admin panel for easy content editing
+
+If you use the admin panel, the files with your page content will be created automatically, including any meta data you enter in the web interface.
+
+The admin panel just offers a differnet view on the content files. If you make a manual change in a content file, this will also appear when you open the page in the admin panel.
+
 ## Manage a page with a single file
 
 Every file in the content folder represents a page. The file name will determine the URL to access the page. The file extension determines how the page is rendered.

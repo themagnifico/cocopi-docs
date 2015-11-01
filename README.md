@@ -16,8 +16,8 @@ The CoCoPi admin panel is powered by Cockpit, allowing you to add any kind of dy
     1. [Theme](theme.md)
     2. Content types
     3. [Page layouts](page-layouts.md)
-    4. Menus
-    5. Snippets
+    4. [Snippets](snippets.md)
+    5. [Menus](menus.md)
 4. Advanced
     1. [The Page API](page-api.md)
     2. [The copi API](copi-api.md)

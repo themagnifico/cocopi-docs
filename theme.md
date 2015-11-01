@@ -128,23 +128,12 @@ TODO
 @url()
 ```
 
-## Snippets
 
-Snippets are small files to use for markup you use several, i.e. a featured box that appears on several places of your site. You can also pass an option array as the second parameter.
+Render a snippet. Read [more about snippets](snippets.md).
 
 ```
 @render( 'snippets:teaser.html' , ['text' => 'Hello, handsome.'])
 ```
-
-An example for the `site/snippets/teaser.html`:
-
-```
-<div class="uk-panel uk-panel-box">
-    <h2 class="uk-panel-title">{{ $text }}</h2>
-</div>
-```
-
-By default, COCOPi looks for `.html` snippets in the `site/snippets/` directory, so in the example above we could also just write `@render('teaser', ...)`
 
 ## Cockpit enabled
 

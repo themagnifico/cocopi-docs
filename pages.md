@@ -3,7 +3,7 @@ Managing Pages
 
 ## The content folder
 
-COCOPi's content is managed with static files contained in your `content` folder. To add content, just add a file to this directory. A page can either be created with a single file, or with a single folder that can contain any number of additional files.
+Cocopi's content is managed with static files contained in your `content` folder. To add content, just add a file to this directory. A page can either be created with a single file, or with a single folder that can contain any number of additional files.
 
 ## Use the admin panel for easy content editing
 

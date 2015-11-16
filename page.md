@@ -8,7 +8,7 @@ A file in the `content` folder contains both meta data and content. These parts 
 
 ```yaml
 title   : Hello World
-author  : COCOPi
+author  : Cocopi
 created : 2015-03-11
 
 ===

@@ -12,7 +12,7 @@ About  : /about
 Portfolio: /portfolio
     Photos: /photos
     Videos: /Videos
-COCOPi: https://cocopi.co/
+Cocopi: https://cocopi.co/
 ```
 
 YAML is a readable format for structured data and internally converted to an array representation. Read more about the [YAML syntax](https://en.wikipedia.org/wiki/YAML#Examples).

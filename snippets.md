@@ -15,11 +15,11 @@ An example for the `site/snippets/teaser.html`:
 </div>
 ```
 
-By default, COCOPi looks for `.html` snippets in the `site/snippets/` directory, so in the example above we could also just write `@render('teaser', ...)`
+By default, Cocopi looks for `.html` snippets in the `site/snippets/` directory, so in the example above we could also just write `@render('teaser', ...)`
 
 ## Snippets File cascade
 
-COCOPi looks for snippets in several folders and take the last file it finds. That way you can overwrite system snippets (i.e. the default menu renderer, which is just a snippet internally).
+Cocopi looks for snippets in several folders and take the last file it finds. That way you can overwrite system snippets (i.e. the default menu renderer, which is just a snippet internally).
 
 `@render(snippet:example.html)` will look for:
 

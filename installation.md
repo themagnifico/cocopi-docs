@@ -1,12 +1,12 @@
 Installation
 ===
 
-To get started, download a COCOPi package that comes with some sample content.  
-Installing COCOPi is as easy as dropping the downloaded folder in the desired location of your PHP 5.4+ ready web server. That's it. No database setup or installer is needed.
+To get started, download a Cocopi package that comes with some sample content.  
+Installing Cocopi is as easy as dropping the downloaded folder in the desired location of your PHP 5.4+ ready web server. That's it. No database setup or installer is needed.
 
 For example, extract the package to a `cocopi` folder in your web server documents directoy. In your browser, open `http://localhost/cocopi` or `example.com/cocopi` to see your site.
 
-COCOPi comes with an admin panel located in the `cockpit/` folder, so for example at `example.com/cocopi/cockpit`. Before you login to Cockpit for the first time, run the installation at `example.com/cocopi/cockpit/install`.
+Cocopi comes with an admin panel located in the `cockpit/` folder, so for example at `example.com/cocopi/cockpit`. Before you login to Cockpit for the first time, run the installation at `example.com/cocopi/cockpit/install`.
 
 ## Requirements
 

@@ -1,7 +1,7 @@
 Page layouts
 ===
 
-When your page is rendered, COCOPi takes the content and places it inside a so called page layout. By default, this is the main layout as defined by your site's theme: `site/theme/layout.html`. A page layout will also take the meta data of the current page and use parts of it, i.e. the page title to place in the broser window title.
+When your page is rendered, Cocopi takes the content and places it inside a so called page layout. By default, this is the main layout as defined by your site's theme: `site/theme/layout.html`. A page layout will also take the meta data of the current page and use parts of it, i.e. the page title to place in the broser window title.
 
 ## Render a page with a another page layout
 

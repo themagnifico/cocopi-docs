@@ -8,7 +8,7 @@ The main layout is located in `site/theme/layout.html`. This file includes the m
 
 ## Templating syntax
 
-COCOPi renders templates using the lightweight Lexy template engine. View files are compiled to plain PHP files which are cached. This makes rendering really fast. You can also use plain PHP in your view files.
+Cocopi renders templates using the lightweight Lexy template engine. View files are compiled to plain PHP files which are cached. This makes rendering really fast. You can also use plain PHP in your view files.
 
 Lexy has its own documentation available at FIXME. Here are some basic examples:
 
@@ -61,7 +61,7 @@ Include assets you need all the time and assets that have been added to the `$me
 @assets(['theme:css/site.css', 'cockpit:assets/lib/jquery.js', 'cockpit:assets/lib/uikit/js/uikit.min.js', 'theme:js/site.js'])
 ```
 
-Note how some paths are registered with a shorthand. COCOPi will resolve these to the the full file paths. For a full list of available paths, have a look at the `system/bootstrap.php` and look for all lines starting with `$copilot->path(...)`.
+Note how some paths are registered with a shorthand. Cocopi will resolve these to the the full file paths. For a full list of available paths, have a look at the `system/bootstrap.php` and look for all lines starting with `$copilot->path(...)`.
 
 To make sure your page layouts can also load asset files, include the following expression as well. In your page layout (or other view files) you can then use `@load('theme:js/custom.js')` to have additional asset files loaded.
 
@@ -137,7 +137,7 @@ Render a snippet. Read [more about snippets](snippets.md).
 
 ## Cockpit enabled
 
-As COCOPi is built with Cockpit, you can also use all Cockpit helpers. For more information on Cockpit in general, head over to the [Cockpit documentation](http://getcockpit.com/docs).
+As Cocopi is built with Cockpit, you can also use all Cockpit helpers. For more information on Cockpit in general, head over to the [Cockpit documentation](http://getcockpit.com/docs).
 
 Render a region.
 

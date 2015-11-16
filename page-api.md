@@ -1,7 +1,7 @@
 Page API
 ===
 
-Every page file in the `content/` directory will be parsed by COCOPi and made available as a `$page` object. This document explains what you can do with that object.
+Every page file in the `content/` directory will be parsed by Cocopi and made available as a `$page` object. This document explains what you can do with that object.
 
 The example return values are for the following file `content/about.md`
 

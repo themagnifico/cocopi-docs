@@ -1,24 +1,24 @@
 The copi API
 ===
 
-The `copi` class bundles much of COCOPi's functionality.
+The `copi` offers a global access to much of Cocopi's functionality. You can call this from your layout files, your content files or your `bootstrap.php`
 
-## TODO
+`copi::home()`: Returns the page object of the home page.
 
-`public static function page($path)`
+`copi::page($path)`: Returns the page object for a given path to a file.
 
-`public static function pages($folder)`
+`copi::pages($folder)`: Returns a PageCollection with all pages in a given folder.
 
-`public static function snippet($snippet, $slots = [])`
+`copi::snippet($snippet, $slots = [])`: Renders a snippet file with optional parameters which are handed to the snippet file.
 
-`public static function menu($menu, $options = [])`
+`copi::menu($menu, $options = [])`: Renders a menu file (point to a `*.yaml` file)
 
-`public static function data($store)`
+`copi::find($criteria = null, $folder = null)`: Find all pages from your content matching given search criteria, optionally only from a given subfolder.
 
-## TODO: Maybe don't include the following so people don't start messign with internals
+`copi::resource($path)`: Return a resource object for a given file path. A resource can be an image or any other file.
 
-`public static function view($template, $slots = [])`
+`copi::view($template, $slots = [])`: Render a view file from a given template file with optional parameters which are handed to the renderer.
 
-`public static function render_page($view, $slots = [])`
+`copi::render_page($view, $slots = [])`: Renders a page from a given file path.
 
-`public static function render_page_route($route = null, $slots = [])`
+`copi::render_page_route($route = null, $slots = [])`: Renders the page from a given route.

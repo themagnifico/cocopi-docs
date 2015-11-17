@@ -6,12 +6,12 @@ Cocopi is a flexible file based CMS. Use it to build simple websites and blogs q
 The Cocopi admin panel is powered by Cockpit, allowing you to add any kind of dynamic content in case you want to move beyond static files.
 
 1. Getting Started
-    2. [Installation](installation.md)
-    3. [Folder Structure](folder-structure.md)
+    1. [Installation](installation.md)
+    2. [Folder Structure](folder-structure.md)
 2. Content
-    1. [Managing Pages](pages.md)
-    2. [A single Page](page.md)
-    3. Working with images
+    1. [Manage Content in the browser](interface.md)
+    1. [Content file structure](pages.md)
+    2. [A single content item](page.md)
 3. Site Customization
     1. [Theme](theme.md)
     2. [Content types](types.md)
@@ -19,6 +19,8 @@ The Cocopi admin panel is powered by Cockpit, allowing you to add any kind of dy
     4. [Snippets](snippets.md)
     5. [Menus](menus.md)
     6. bootstrap.php
+4. Tutorials and Examples
+    1. [Blogging](blog.md)
 4. Advanced
     1. [The Page API](page-api.md)
     2. [The copi API](copi-api.md)

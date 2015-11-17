@@ -18,7 +18,7 @@ The Cocopi admin panel is powered by Cockpit, allowing you to add any kind of dy
     3. [Page layouts](page-layouts.md)
     4. [Snippets](snippets.md)
     5. [Menus](menus.md)
-    6. bootstrap.php
+    6. [bootstrap.php](bootstrap.md)
 4. Tutorials and Examples
     1. [Blogging](blog.md)
 4. Advanced

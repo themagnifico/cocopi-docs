@@ -22,6 +22,7 @@ The Cocopi admin panel is powered by Cockpit, allowing you to add any kind of dy
 4. Tutorials and Examples
     1. [Blogging](blog.md)
 4. Advanced
+    0. [Shortcodes](shortcodes.md)
     1. [The Page API](page-api.md)
     2. [The copi API](copi-api.md)
     3. The Page Collection API

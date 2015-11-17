@@ -7,31 +7,31 @@ Cocopi stores content in flat files, either in `*.md` or `*.html` files. You can
 
 Login to the Cockpit admin area, by appending `/cockpit` to your site's URL. Cockpit offers many features. The section we are interested is can be reached when you hove the main menu icon on the top left. Click the *Pages* menu item.
 
-![Main menu](interface-1-dropdown.png)
+![Main menu](images/interface-1-dropdown.png)
 
 ## Top level pages
 
 The top level pages are everything which is directly located in your `/content` folder. These will appear in the overview.
 
-![Pages listing](interface-3-pages.png)
+![Pages listing](images/interface-3-pages.png)
 
 ## Second level menu
 
 Note the second level menu. From here you can always return to the pages overview and access the Finder with nice filtering for the files on your server.
 
-![Second level menu](interface-2-second-dropdown.png)
+![Second level menu](images/interface-2-second-dropdown.png)
 
 ## Creating a new page
 
 In the top level page overvie, click the big blue button with the plus sign, to add a new page. Enter a title and select *Markdown* to create a new page with the content created in Markdown (or HTML, whatever you like).
 
-![New page dialog](interface-5-new-page.png)
+![New page dialog](images/interface-5-new-page.png)
 
-![Single page editor](interface-4-page.png)
+![Single page editor](images/interface-4-page.png)
 
 Have a look at the sidebar. Here you can enter metadata for this page, create subpages and upload files. The files you see here are the located iin the same content folder as this content item. This makes it easy to keep images for your content in the same folders as the content files themselves.
 
-![Page sidebar](interface-6-sidebar.png)
+![Page sidebar](images/interface-6-sidebar.png)
 
 ## Creating a blog post
 

@@ -14,7 +14,7 @@ Home  : /
 About  : /about
 Portfolio: /portfolio
     Photos: /photos
-    Videos: /Videos
+    Videos: /videos
 Cocopi: https://cocopi.co/
 ```
 

@@ -25,7 +25,7 @@ YAML is a readable format for structured data and internally converted to an arr
 To render the menu defined in `/site/menu/main.yaml`, add the following snippet to the desired position in your theme layout file.
 
 ```
-@render('main')
+@menu('main')
 ```
 
 The default menu renderer also takes an option array to influence the rendering of the markup. You can add additional classes on the top level container and define the class for the active menu element.

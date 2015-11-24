@@ -1,10 +1,13 @@
 # Menus
 
-A menu is part of your site setup, not of the content. That is why it sits in `site/config/`
+A menu is defined by:
 
-## Define the links and structure of a menu
+1. A list of links, located as `*.yaml` files in the `/site/menu` folder
+2. A renderer which creates the markup. Cocopi provides a default renderer that you can overwrite.
 
-Every menu is defined by a YAML file in the folder `site/config/menu/`. Your main menu could be called `main.yaml` and have the following content.
+## Define links and structure of a menu
+
+Every menu is defined by a YAML file in the folder `/site/menu/`. Your main menu could be called `main.yaml` and have the following content.
 
 ```
 Home  : /
@@ -19,13 +22,13 @@ YAML is a readable format for structured data and internally converted to an arr
 
 ## Render a menu in your template
 
-To render the menu defined in `site/config/menu/main.yaml`, add the following snippet to the desired position in your theme layout file.
+To render the menu defined in `/site/menu/main.yaml`, add the following snippet to the desired position in your theme layout file.
 
 ```
 @render('main')
 ```
 
-The default menu renderer also takes an option array to influence the rendering of the markup. You cann additional classes on the top level container and define the class for the active menu element.
+The default menu renderer also takes an option array to influence the rendering of the markup. You can add additional classes on the top level container and define the class for the active menu element.
 
 ```
 @menu('main', ['class'=>'uk-navbar-nav', 'activeClass' => 'uk-active'])
@@ -33,4 +36,4 @@ The default menu renderer also takes an option array to influence the rendering 
 
 ## Overwrite default menu renderer
 
-If the default menu renderer does not suit your needs, you can overwrite the existing renderer by putting a snippet file in your site folder. For example copy the existing renderer from `system/snippets/menu/default.html` to `site/snippets/menu/default.html` and make any markup changes you want.
+If the default menu renderer does not suit your needs, you can overwrite the existing renderer by putting a snippet file in your site folder. For example copy the existing renderer from `/system/snippets/menu/default.html` to `/site/snippets/menu/default.html` and make any markup changes you want.

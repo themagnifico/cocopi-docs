@@ -6,9 +6,11 @@ When you want to add custom PHP code, either just put in in `site/bootstrap.php`
 
 | Folder    | Purpose                |
 |-----------|------------------------|
-| `cockpit` | Copilot is the admin panel that you can use to manage your content |
+| `cockpit` | Copilot is the admin panel that you can use to manage your content. To update Cocopi you simply need to replace this folder. |
 | `content` | Contains **your content**. Every file or subfolder corresponds to one page. |
 | `site`    | Defines what your site looks like. Theme, page layouts, content types, snippets, menus and assets such as CSS and JavaScript |
+| `config`    | Site configuration in `*.yaml` files. Here you can set your site title etc. Also includes language files if you want to run the backend in anything other than English. |
+| `storage`    | Cache, user uploads, temporary files |
 
 And that's it basically.
 

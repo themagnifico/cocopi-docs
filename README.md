@@ -21,6 +21,7 @@ The Cocopi admin panel is powered by Cockpit, allowing you to add any kind of dy
     6. [bootstrap.php](bootstrap.md)
 4. Tutorials and Examples
     1. [Blogging](blog.md)
+    2. [Working with files and images](files-and-images.md)
 4. Advanced
     0. [Shortcodes](shortcodes.md)
     1. [The Page API](page-api.md)
@@ -28,6 +29,5 @@ The Cocopi admin panel is powered by Cockpit, allowing you to add any kind of dy
 5. Coming Soon
     3. The Page Collection API
     4. The Data Collection API
-    5. The Image API
     6. Creating a custom module
     7. Cockpit

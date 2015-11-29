@@ -1,21 +1,22 @@
-Cocopi Documentation
+Cocopi CMS
 ===
 
-Cocopi is a flexible file based CMS. Use it to build simple websites and blogs quickly. Cocopi is completely file based but offers the power of PHP in case you need more than just static content.
+Cocopi is a file based CMS featuring a powerul admin panel. Manage your content in your editor or in the browser.
 
-The Cocopi admin panel is powered by Cockpit, allowing you to add any kind of dynamic content in case you want to move beyond static files.
+Quickly build any website, from simple to complex. Cocopi has the flexibility to power a variety of websites while staying refreshingly simple.
 
+The admin panel is powered by Cockpit, allowing you to add any kind of dynamic content in case you want to move beyond static files.
 
-## Recommended First Steps
+## First steps
 
-Trying out Cocopi for the first time? Great! Everyone learns differently, so you might prefer a different order, but here are some first steps we can recommend.
+Trying out Cocopi for the first time? Great! To get started, we recommend the following steps. These will get you up and running without having to dig into much documentation.
 
 1. Download and [install](installation.md) the [Cocopi Kickstart Package](https://github.com/COCOPi/cocopi-kickstart).
 2. Login to the admin area and [create content in the interface](interface.md).
-3. Browse the `/content` folder to see how [Content](content.md) is stored in flat files.
+3. Browse the `/content` folder to see how [Content](content.md) is stored in static files.
 4. To understand the `/site` folder and customize your website, read the [Theme section](theme.md) and check out the example on how to [build a Blog](blog.md).
 
-## Contents
+## Documentation
 
 1. Getting Started
     1. [Installation](installation.md)

@@ -18,12 +18,12 @@ The Cocopi admin panel is powered by Cockpit, allowing you to add any kind of dy
     3. [Page layouts](page-layouts.md)
     4. [Snippets](snippets.md)
     5. [Menus](menus.md)
-    6. [bootstrap.php](bootstrap.md)
 4. Tutorials and Examples
     1. [Blogging](blog.md)
     2. [Working with files and images](files-and-images.md)
 4. Advanced
-    0. [Shortcodes](shortcodes.md)
-    1. [Page API](page-api.md)
-    2. [copi API](copi-api.md)
-    3. [Page Collection API](page-collection-api.md)
+    1. [Custom code: bootstrap.php](bootstrap.md)
+    2. [Shortcodes](shortcodes.md)
+    3. [Page API](page-api.md)
+    4. [copi API](copi-api.md)
+    5. [Page Collection API](page-collection-api.md)

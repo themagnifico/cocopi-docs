@@ -1,12 +1,14 @@
 Working with images and files
 ===
 
-## Background: Resource objects
+Internally, Cocopi represents files and images as instances of the `Resource` class. You don't need to think about that in most cases, but it's useful background knowledge.
 
-Any static file or image in Cocopi can be represented as a `Resource` object. To get a `Resource` object for a certain file, you have two options.
+The resource class includes helpful methods to work with file and image operations, fetch meta data and render thumbnails.
 
-1. Manually for a single file path: `$file = copi::resource($path)`
-2. Automatic query for files attached to a content item: `$files = $page->files()` and `$images = $page->images`. These return an array of `Resource` objects.
+There are two common use cases to receive a `Resource` object that you can work with.
+
+1. Fetch a resource object for a known file path: `$file = copi::resource($path)`
+2. When you query for files attached to a content item, you automatically receive an array of `Resource` objects: `$files = $page->files()` and `$images = $page->images`.
 
 ## Fetch images from content item
 

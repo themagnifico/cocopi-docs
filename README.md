@@ -24,10 +24,6 @@ The Cocopi admin panel is powered by Cockpit, allowing you to add any kind of dy
     2. [Working with files and images](files-and-images.md)
 4. Advanced
     0. [Shortcodes](shortcodes.md)
-    1. [The Page API](page-api.md)
-    2. [The copi API](copi-api.md)
-5. Coming Soon
-    3. The Page Collection API
-    4. The Data Collection API
-    6. Creating a custom module
-    7. Cockpit
+    1. [Page API](page-api.md)
+    2. [copi API](copi-api.md)
+    3. [Page Collection API](page-collection-api.md)

@@ -64,34 +64,34 @@ A page is hidden if the filename starts with an underscore `_`.
 
 `$page->children()`
 
-## TODO
+## Get sibling pages
 
-`public function siblings($filter = null)`
+`$page->siblings($filter = null)`
 
-`public function pages($path = '')`
+## Find subpages
 
-`public function page($path)`
+All subpages:
 
-`public function depth()`
+`$page->find()`
 
-`public function data($store)`
+Matching a criterion (can be a string or a callback function).
 
-`public function file($path)`
+## Get files attached to page
 
-`public function files($path)`
+Any files in the folder of a content item can be seen as file attachements. You can query these and get an array of `Resource` objects. Check out [examples and explanation](files-and-images.md) of what to do with these.
 
-`public function image($path)`
+`$page->files()`
 
-`public function images($path)`
+## Get images attached to page
 
-`public function modified($format = null)`
+Same as `$page->files()`, but only returns images and leaves out other file types.
 
-`public function content($part = null)`
+`$page->images()`
 
-## TODO: maybe not document the following so people don't mess with the internals?
+## Get page content
 
-`public function setContent($content)`
+`$page->content($part = null)`
 
-`public function render($slots = [])`
+## Advanced methods
 
-`public function parts($name = null)`
+For even more details and methods, check out the [Lib\Page](https://github.com/COCOPi/cocopi-kickstart/blob/master/cockpit/modules/addons/Copilot/Lib/Page.php) class.

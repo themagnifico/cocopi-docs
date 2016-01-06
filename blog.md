@@ -141,20 +141,20 @@ We need a second layout to render the single view of a blog article.
 
 The `/blog` page is displayed without its content field, because we have hidden the content in the blog type definition.
 
-![](images/example-blog-1.png)
+![](files/example-blog-1.png)
 
 The sidebar shows all subpages of the blog page. Every blog article is a subpage and appears here. Click *Add Page* to create a new blog article.
 
-![](images/example-blog-2.png)
+![](files/example-blog-2.png)
 
 A popup appears to create the new subpage. Note how the type *Blog Article* is preselected. Actually you can only select this type here, because this is the only subtype of the blog type.
 
-![](images/example-blog-3.png)
+![](files/example-blog-3.png)
 
 The resulting editor shows all meta fields (only one wysiwyg field in our case). The content editor is available in the second tab and it is a Markdown editor in our case.
 
-![](images/example-blog-4.png)
+![](files/example-blog-4.png)
 
 ## The rendered blog in the browser
 
-![](images/example-blog-5.png)
+![](files/example-blog-5.png)

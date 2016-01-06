@@ -1,7 +1,7 @@
 Cocopi CMS
 ===
 
-Cocopi is a file based CMS featuring a powerul admin panel. Manage your content in your editor or in the browser.
+Cocopi is a file based CMS featuring a powerful admin panel. Manage your content in your editor or in the browser.
 
 Quickly build any website, from simple to complex. Cocopi has the flexibility to power a variety of websites while staying refreshingly simple.
 

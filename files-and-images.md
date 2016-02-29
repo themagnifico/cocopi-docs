@@ -73,7 +73,7 @@ comment: This photo was taken during my travels to New Zealand.
 
 To fetch a thumbnail URL for a given image, use the global function `thumb_url()` or the `$image->thumb_url()` method call (see example above).
 
-You can specify deminsions and a resize behaviour. The thumbail files are generated once and then saved in `/storage/thumbs/`. The only required parameter is `$path`, the other ones are optional.
+You can specify dimensions and a resize behaviour. The thumbail files are generated once and then saved in `/storage/thumbs/`. The only required parameter is `$path`, the other ones are optional.
 
 ```
 thumb_url($path, $width, $height, $options=array())
